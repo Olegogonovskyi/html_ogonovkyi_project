@@ -1,0 +1,139 @@
+@media screen and (max-width: 345px) {
+
+    .nonmob {
+        display: none;
+    }
+
+    .nondesk {
+        display: block;
+    }
+
+    .grid {
+        display: flex;
+    }
+
+    .pagetwocont, .grid, .contbottom, footer {
+        flex-direction: column;
+    }
+
+    .contbottom {
+        align-items: flex-start;
+    }
+    .secretsec {
+        height: 80vh;
+    }
+
+    /*-------------------------------------page 1-------------------------------------*/
+    .headerlogo {
+        margin-top: 50px;
+    }
+
+    .pageonecontent {
+        flex-direction: column;
+    }
+
+    .pageonecontentwrite h1 {
+        font-size: 42px;
+        margin-top: 66px;
+        line-height: 63px;
+    }
+
+    .pageonecontentwrite p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.70);
+        line-height: 24px;
+
+    }
+
+    .pageonecontentwrite button {
+        width: 166px;
+        height: 44px;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    /*-------------------------------------page 2-------------------------------------*/
+    /*-------------------------------------page 2-------------------------------------*/
+    .pageonecontentleft img {
+        width: 100vw;
+        margin-top: 50px;
+    }
+
+    .pagetwoh, .pagetwop {
+        width: 80vw;
+    }
+
+    .pagetwoh h3 {
+        font-size: 36px;
+        line-height: 54px;
+        margin-top: 133px;
+    }
+
+    .pagetwop p {
+        font-size: 16px;
+    }
+
+    /*-------------------------------------page 2-------------------------------------*/
+    /*-------------------------------------page 3-------------------------------------*/
+    .pagethree {
+        margin-top: 300px;
+    }
+
+    .pagethree h3 {
+        font-size: 36px;
+    }
+
+    .grid {
+        margin-top: 150px;
+        grid-gap: 20vh;
+    }
+
+    .gridbloks {
+        width: 80vw;
+    }
+
+    /*-------------------------------------page 3-------------------------------------*/
+    /*-------------------------------------page 4-------------------------------------*/
+    .pagefour {
+        margin-top: 250vh;
+    }
+
+    .pagefour h4 {
+        font-size: 36px;
+    }
+
+    .borderradiusmain {
+        width: 80vw;
+    }
+
+
+    /*-------------------------------------page 4-------------------------------------*/
+    /*-------------------------------------page 5-------------------------------------*/
+    .contbottom h5 {
+        font-size: 36px;
+        margin: 0;
+
+    }
+
+    .contbottomh {
+        width: 80vw;
+    }
+
+    .bottbutt {
+        margin-top: 2vh;
+    }
+
+    .contbottom {
+        margin-top: 10vh;
+    }
+    footer {
+        margin-top: 40vh;
+    }
+
+    footer p {
+        height: 3vh;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.70);;
+    }
+
+}

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    background: #19191B;
+    font-family: "Lato", sans-serif;
+    color: #FFFFFF;
+
+}
+
+body h3 {
+    font-size: 60px;
+    text-align: center;
+}
+
+body h5 {
+    font-size: 28px;
+    margin: 2vh;
+
+}
+
+section {
+    width: 83vw;
+    height: 100vh;
+}
+
+.borderradiusmain {
+    border-radius: 10px;
+}
+.nondesk {
+    display: none;
+}
+
+/*----------------------------------------------Flex block-------------------------------*/
+body, main, header, .headerbutton, .section, footer, .pagetwocont, .pagetwo, .pagetwoh, .pagefour, .pagefive, .bottbutt, .portfolioimg, .headerlogo, .imgthreeepage, .gridbloks, .pageonecontent, .pageonecontentwrite, .headermenu, .contbottom {
+    display: flex;
+}
+
+body, main, .pageonecontentwrite, section, .gridbloks, .pagefour, .pagefive {
+    flex-direction: column;
+}
+
+body, main, .headerlogo, .pagetwo, .headerbutton, .pagefive, .contbottom, .imgthreeepage, .portfolioimg, .gridbloks, .pageone, .pageonecontentwrite, .pagetwo, .pagetwocont {
+    justify-content: center;
+}
+
+.headerlogo, main, .headermenu, .headerbutton, .contbottom, .bottbutt, footer, section, .pagefive, .portfolioimg, .pagefour, .imgthreeepage, .pagetwocont, .gridbloks {
+    align-items: center;
+}
+
+header, .headermenu, .portfolioimg, footer, .pagetwocont {
+    justify-content: space-between;
+}
+
+.pagefour {
+    justify-content: space-around;
+}
+
+.bottbutt, .pagefive {
+    justify-content: flex-end;
+}
+
+/*----------------------------------------------Flex block-------------------------------*/
+/*-----------------------------------------------Scroll 1--------------------------------*/
+.pageone {
+    margin-top: 2vh;
+}
+
+.headerlogo p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+}
+
+header {
+    height: 4vh;
+    width: 83vw;
+}
+
+.headermenu {
+    width: 28vw;
+    font-size: 18px;
+}
+
+.headerbutton button {
+    width: 12vw;
+    height: 6vh;
+    font-size: 16px;
+    background: #19191B;
+    border: #fdfdfd solid 1px;
+
+}
+
+.buttonstyle, header {
+    color: #FFFFFF;
+}
+
+.pageonecontentwrite h1 {
+    font-size: 80px;
+    margin: 0;
+
+}
+
+.fontsisemainp {
+    font-size: 21px;
+}
+
+.pageonecontentwrite button {
+    width: 15vw;
+    height: 6vh;
+    background: #5454D4;
+    border: none;
+    font-size: 20px;
+}
+
+.pageonecontentleft img {
+    width: 45vw;
+}
+
+/*-----------------------------------------------Scroll 1---------------------------------*/
+/*-----------------------------------------------Scroll 2---------------------------------*/
+.pagetwo img {
+    width: 83vw;
+}
+
+.pagetwocont {
+    width: 83vw;
+}
+
+.pagetwoh {
+    width: 30vw;
+}
+
+.pagetwoh h3 {
+    text-align: left;
+}
+
+.pagetwop {
+    width: 40vw;
+}
+
+.pagetwop p {
+    font-size: 21px;
+}
+
+/*-----------------------------------------------Scroll 2--------------------------------*/
+/*-----------------------------------------------Scroll 3--------------------------------*/
+.pagethree {
+    margin-top: 150px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 20vw;
+    grid-gap: 10vh;
+
+}
+
+.pagetwoh {
+    width: 30vw;
+}
+
+.gridbloks {
+    width: 20vw;
+    height: 30vh;
+
+}
+
+.gridbloks p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.imgthreeepage {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0;
+
+}
+
+.firstimg {
+    background: rgba(84, 84, 212, 0.10);
+}
+
+.secondimg {
+    background: rgba(240, 64, 55, 0.10);
+}
+
+.threeimg {
+    background: rgba(254, 220, 90, 0.10);
+}
+
+.fourimage {
+    background: rgba(254, 220, 90, 0.10);
+}
+
+.fiveimage {
+    background: rgba(84, 84, 212, 0.10);
+}
+
+.siximage {
+    background: rgba(240, 64, 55, 0.10);
+}
+
+/*-----------------------------------------------Scroll 3--------------------------------*/
+/*-----------------------------------------------Scroll 4--------------------------------*/
+.pagefour {
+    height: 63vh;
+    align-items: flex-start;
+    margin-top: 150px;
+
+}
+
+.pagefour h4 {
+    font-size: 58px;
+}
+
+.portfolioimg img {
+    border: #1E1E20 12px solid;
+
+}
+
+.portfolioimg {
+    width: 83vw;
+}
+
+/*-----------------------------------------------Scroll 4--------------------------------*/
+/*-----------------------------------------Scroll 5 + footer----------------------------*/
+.pagefive {
+    height: 83vh;
+    align-items: flex-start;
+
+}
+
+.contbottomh {
+
+    width: 55vw;
+}
+
+.contbottomh h5 {
+    font-size: 60px;
+}
+
+.bottbutt {
+    width: 30vw;
+}
+
+.bottbutt button {
+    height: 60px;
+    width: 200px;
+    background: #5454D4;
+    color: #fdfdfd;
+    border: none;
+}
+
+footer {
+    height: 40vh;
+    width: 83vw;
+}
+
+/*-----------------------------------------------Scroll 5--------------------------------*/
+/*------------------------------------------------всьо-----------------------------------*/
